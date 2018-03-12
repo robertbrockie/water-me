@@ -6,7 +6,12 @@
     "dependencies": {
         "dotenv": "5.0.1",
         "express": "4.16.2",
-        "path": "0.12.7"
+        "path": "0.12.7",
+        "twilio": "3.13.0"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/robertbrockie/water-me"
     },
     "scripts": {
         "start": "node server.js"
