@@ -1,0 +1,13 @@
+{
+    "author": "Robert Brockie",
+    "name": "water-me",
+    "description": "Plants need to be watered",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "4.16.2",
+        "path": "0.12.7"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}
