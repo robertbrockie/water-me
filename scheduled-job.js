@@ -5,7 +5,7 @@ require('dotenv').config()
 const ALERT_DAY = 5 // Friday
 
 function generateMessage() {
-    if (moment().getDay() === ALERT_DAY) {
+    if (moment().day() === ALERT_DAY) {
         return 'Do remember to water your plants today!'
     } else {
         return 'It\'s only ' + moment().format('dddd') + ' no need to worry about your plants today!'
